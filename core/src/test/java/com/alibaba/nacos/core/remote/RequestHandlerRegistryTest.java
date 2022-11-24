@@ -34,7 +34,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * {@link RequestHandlerRegistry} unit test.
+ * { RequestHandlerRegistry} unit test.
  *
  * @author chenglu
  * @date 2021-07-02 19:22

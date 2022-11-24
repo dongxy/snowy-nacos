@@ -19,8 +19,8 @@ package com.alibaba.nacos.core.code.condition;
 import static com.alibaba.nacos.sys.env.Constants.REQUEST_PATH_SEPARATOR;
 
 /**
- * request path info. method:{@link org.springframework.web.bind.annotation.RequestMapping#method()} path: {@link
- * org.springframework.web.bind.annotation.RequestMapping#value()} or {@link org.springframework.web.bind.annotation.RequestMapping#value()}
+ * request path info. method:{ org.springframework.web.bind.annotation.RequestMapping#method()} path: {
+ * org.springframework.web.bind.annotation.RequestMapping#value()} or { org.springframework.web.bind.annotation.RequestMapping#value()}
  *
  * @author horizonzy
  * @since 1.3.2

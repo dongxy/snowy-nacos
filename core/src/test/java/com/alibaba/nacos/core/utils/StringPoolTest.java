@@ -20,7 +20,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 /**
- * {@link StringPool} unit tests.
+ * { StringPool} unit tests.
  *
  * @author chenglu
  * @date 2021-06-10 13:52

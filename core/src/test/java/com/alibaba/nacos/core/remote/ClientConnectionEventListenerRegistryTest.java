@@ -27,7 +27,7 @@ import org.mockito.junit.MockitoJUnitRunner;
 import java.util.Objects;
 
 /**
- * {@link ClientConnectionEventListenerRegistry} uint test.
+ * { ClientConnectionEventListenerRegistry} uint test.
  *
  * @author chenglu
  * @date 2021-07-02 14:43

@@ -73,7 +73,7 @@ public class CoreOpsV2Controller {
     /**
      * Gets the current health of the ID generator.
      *
-     * @return {@link RestResult}
+     * @return { RestResult}
      */
     @GetMapping(value = "/ids")
     public RestResult<List<IdGeneratorVO>> ids() {

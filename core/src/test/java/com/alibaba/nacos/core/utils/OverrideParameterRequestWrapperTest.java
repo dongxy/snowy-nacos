@@ -21,7 +21,7 @@ import org.junit.Test;
 import org.springframework.mock.web.MockHttpServletRequest;
 
 /**
- * {@link OverrideParameterRequestWrapper} unit tests.
+ * { OverrideParameterRequestWrapper} unit tests.
  *
  * @author chenglu
  * @date 2021-06-10 14:11

@@ -30,7 +30,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import static com.alibaba.nacos.sys.env.Constants.STANDALONE_SPRING_PROFILE;
 
 /**
- * {@link StandaloneProfileApplicationListener} Test.
+ * { StandaloneProfileApplicationListener} Test.
  *
  * @author <a href="mailto:mercyblitz@gmail.com">Mercy</a>
  * @since 0.2.2

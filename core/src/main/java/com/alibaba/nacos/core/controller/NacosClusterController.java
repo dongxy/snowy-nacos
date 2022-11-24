@@ -98,8 +98,8 @@ public class NacosClusterController {
     /**
      * Other nodes return their own metadata information.
      *
-     * @param node {@link Member}
-     * @return {@link RestResult}
+     * @param node { Member}
+     * @return { RestResult}
      */
     @PostMapping(value = {"/report"})
     public RestResult<String> report(@RequestBody Member node) {
@@ -117,7 +117,7 @@ public class NacosClusterController {
      * Addressing mode switch.
      *
      * @param type member-lookup name
-     * @return {@link RestResult}
+     * @return { RestResult}
      */
     @PostMapping(value = "/switch/lookup")
     public RestResult<String> switchLookup(@RequestParam(name = "type") String type) {
@@ -133,8 +133,8 @@ public class NacosClusterController {
      * member leave.
      *
      * @param params member ip list, example [ip1:port1,ip2:port2,...]
-     * @return {@link RestResult}
-     * @throws Exception {@link Exception}
+     * @return { RestResult}
+     * @throws Exception { Exception}
      */
     @PostMapping("/server/leave")
     public RestResult<String> leave(@RequestBody Collection<String> params,

@@ -42,7 +42,7 @@ import java.util.Map;
 import java.util.UUID;
 
 /**
- * {@link ConnectionManager} unit test.
+ * { ConnectionManager} unit test.
  *
  * @author chenglu
  * @date 2021-07-02 14:57

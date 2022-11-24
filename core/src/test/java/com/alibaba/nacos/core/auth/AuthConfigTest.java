@@ -25,7 +25,7 @@ import org.mockito.junit.MockitoJUnitRunner;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 
 /**
- * {@link AuthConfig} unit test.
+ * { AuthConfig} unit test.
  *
  * @author chenglu
  * @date 2021-07-06 13:36

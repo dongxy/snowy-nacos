@@ -46,14 +46,14 @@ public interface MemberLookup {
     /**
      * Inject the ServerMemberManager property.
      *
-     * @param memberManager {@link ServerMemberManager}
+     * @param memberManager { ServerMemberManager}
      */
     void injectMemberManager(ServerMemberManager memberManager);
     
     /**
      * The addressing pattern finds cluster nodes.
      *
-     * @param members {@link Collection}
+     * @param members { Collection}
      */
     void afterLookup(Collection<Member> members);
     
@@ -67,7 +67,7 @@ public interface MemberLookup {
     /**
      * Some data information about the addressing pattern.
      *
-     * @return {@link Map}
+     * @return { Map}
      */
     default Map<String, Object> info() {
         return Collections.emptyMap();

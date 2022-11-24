@@ -24,7 +24,7 @@ import org.springframework.mock.web.MockHttpServletRequest;
 import java.nio.charset.StandardCharsets;
 
 /**
- * {@link WebUtils} unit tests.
+ * { WebUtils} unit tests.
  *
  * @author chenglu
  * @date 2021-06-10 13:33

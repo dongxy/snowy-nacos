@@ -56,8 +56,8 @@ public class MemberUtil {
     /**
      * Information copy.
      *
-     * @param newMember {@link Member}
-     * @param oldMember {@link Member}
+     * @param newMember { Member}
+     * @param oldMember { Member}
      */
     public static void copy(Member newMember, Member oldMember) {
         oldMember.setIp(newMember.getIp());
@@ -72,7 +72,7 @@ public class MemberUtil {
      * parse ip:port to member.
      *
      * @param member ip:port
-     * @return {@link Member}
+     * @return { Member}
      */
     @SuppressWarnings("PMD.UndefineMagicConstantRule")
     public static Member singleParse(String member) {
@@ -132,7 +132,7 @@ public class MemberUtil {
     /**
      * Successful processing of the operation on the node.
      *
-     * @param member {@link Member}
+     * @param member { Member}
      */
     public static void onSuccess(final ServerMemberManager manager, final Member member) {
         final NodeState old = member.getState();
@@ -147,7 +147,7 @@ public class MemberUtil {
     /**
      * Successful processing of the operation on the node and update metadata.
      *
-     * @param member {@link Member}
+     * @param member { Member}
      * @since 2.1.2
      */
     public static void onSuccess(final ServerMemberManager manager, final Member member, final Member receivedMember) {
@@ -176,8 +176,8 @@ public class MemberUtil {
     /**
      * Failure processing of the operation on the node.
      *
-     * @param member {@link Member}
-     * @param ex     {@link Throwable}
+     * @param member { Member}
+     * @param ex     {link Throwable}
      */
     public static void onFail(final ServerMemberManager manager, final Member member, Throwable ex) {
         manager.getMemberAddressInfos().remove(member.getAddress());

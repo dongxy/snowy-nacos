@@ -87,7 +87,7 @@
         <groupId>vip.xiaonuo.nacos</groupId>
         <artifactId>nacos-all</artifactId>
         <relativePath>../pom.xml</relativePath>
-        <version>${revision}</version>
+        <version>2.1.2</version>
     </parent>
     
     <properties>

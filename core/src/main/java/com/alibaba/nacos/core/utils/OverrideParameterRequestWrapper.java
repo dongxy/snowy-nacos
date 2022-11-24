@@ -54,7 +54,7 @@ public class OverrideParameterRequestWrapper extends HttpServletRequestWrapper {
      * @param request origin HttpServletRequest
      * @param name    name
      * @param value   value
-     * @return {@link OverrideParameterRequestWrapper}
+     * @return { OverrideParameterRequestWrapper}
      */
     public static OverrideParameterRequestWrapper buildRequest(HttpServletRequest request, String name, String value) {
         OverrideParameterRequestWrapper requestWrapper = new OverrideParameterRequestWrapper(request);
@@ -67,7 +67,7 @@ public class OverrideParameterRequestWrapper extends HttpServletRequestWrapper {
      *
      * @param request          origin HttpServletRequest
      * @param appendParameters need to append to request
-     * @return {@link OverrideParameterRequestWrapper}
+     * @return { OverrideParameterRequestWrapper}
      */
     public static OverrideParameterRequestWrapper buildRequest(HttpServletRequest request,
             Map<String, String[]> appendParameters) {

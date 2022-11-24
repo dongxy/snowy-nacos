@@ -140,7 +140,7 @@ public class ControllerMethodsCache {
     /**
      * find target method from target class.
      *
-     * @param clazz {@link Class}
+     * @param clazz { Class}
      */
     private void initClassMethod(Class<?> clazz) {
         RequestMapping requestMapping = clazz.getAnnotation(RequestMapping.class);

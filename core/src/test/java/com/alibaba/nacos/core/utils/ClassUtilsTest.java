@@ -25,7 +25,7 @@ import java.util.List;
 
 /**
  *
- * {@link ClassUtils} unit tests.
+ * { ClassUtils} unit tests.
  */
 public class ClassUtilsTest {
     

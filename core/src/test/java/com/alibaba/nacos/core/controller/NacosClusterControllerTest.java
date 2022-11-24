@@ -41,7 +41,7 @@ import java.util.List;
 import static org.junit.Assert.assertEquals;
 
 /**
- * {@link NacosClusterController} unit test.
+ * { NacosClusterController} unit test.
  *
  * @author chenglu
  * @date 2021-07-07 22:53

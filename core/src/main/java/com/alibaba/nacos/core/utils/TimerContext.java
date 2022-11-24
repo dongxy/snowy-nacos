@@ -84,7 +84,7 @@ public class TimerContext {
     }
     
     /**
-     * Execution with time-consuming calculations for {@link Runnable}.
+     * Execution with time-consuming calculations for { Runnable}.
      *
      * @param job    runnable
      * @param name   job name
@@ -100,7 +100,7 @@ public class TimerContext {
     }
     
     /**
-     * Execution with time-consuming calculations for {@link Supplier}.
+     * Execution with time-consuming calculations for { Supplier}.
      *
      * @param job    Supplier
      * @param name   job name
@@ -116,7 +116,7 @@ public class TimerContext {
     }
     
     /**
-     * Execution with time-consuming calculations for {@link Function}.
+     * Execution with time-consuming calculations for { Function}.
      *
      * @param job    Function
      * @param args   args
@@ -133,7 +133,7 @@ public class TimerContext {
     }
     
     /**
-     * Execution with time-consuming calculations for {@link Consumer}.
+     * Execution with time-consuming calculations for { Consumer}.
      *
      * @param job    Consumer
      * @param args   args

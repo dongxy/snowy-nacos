@@ -81,7 +81,7 @@ public abstract class AbstractDistroExecuteTask extends AbstractExecuteTask {
     }
     
     /**
-     * Get {@link DataOperation} for current task.
+     * Get { DataOperation} for current task.
      *
      * @return data operation
      */

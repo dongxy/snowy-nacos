@@ -47,8 +47,8 @@ public class JRaftMaintainService {
     /**
      * Execute relevant commands.
      *
-     * @param args {@link Map}
-     * @return {@link RestResult}
+     * @param args { Map}
+     * @return { RestResult}
      */
     public RestResult<String> execute(Map<String, String> args) {
         final CliService cliService = raftServer.getCliService();

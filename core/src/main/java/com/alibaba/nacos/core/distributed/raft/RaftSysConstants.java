@@ -27,27 +27,27 @@ public final class RaftSysConstants {
     // ========= default setting value ========= //
     
     /**
-     * {@link RaftSysConstants#RAFT_ELECTION_TIMEOUT_MS}
+     * { RaftSysConstants#RAFT_ELECTION_TIMEOUT_MS}
      */
     public static final int DEFAULT_ELECTION_TIMEOUT = 5000;
     
     /**
-     * {@link RaftSysConstants#RAFT_SNAPSHOT_INTERVAL_SECS}
+     * { RaftSysConstants#RAFT_SNAPSHOT_INTERVAL_SECS}
      */
     public static final int DEFAULT_RAFT_SNAPSHOT_INTERVAL_SECS = 30 * 60;
     
     /**
-     * {@link RaftSysConstants#RAFT_CLI_SERVICE_THREAD_NUM}
+     * { RaftSysConstants#RAFT_CLI_SERVICE_THREAD_NUM}
      */
     public static final int DEFAULT_RAFT_CLI_SERVICE_THREAD_NUM = 8;
     
     /**
-     * {@link RaftSysConstants#RAFT_READ_INDEX_TYPE}
+     * { RaftSysConstants#RAFT_READ_INDEX_TYPE}
      */
     public static final String DEFAULT_READ_INDEX_TYPE = "ReadOnlySafe";
     
     /**
-     * {@link RaftSysConstants#RAFT_RPC_REQUEST_TIMEOUT_MS}
+     * { RaftSysConstants#RAFT_RPC_REQUEST_TIMEOUT_MS}
      */
     public static final int DEFAULT_RAFT_RPC_REQUEST_TIMEOUT_MS = 5000;
     

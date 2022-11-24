@@ -27,7 +27,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * {@link MemoryKvStorage} unit tests.
+ * { MemoryKvStorage} unit tests.
  *
  * @author chenglu
  * @date 2021-06-10 18:02

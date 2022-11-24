@@ -50,7 +50,7 @@ import static org.junit.Assert.assertTrue;
 import static org.mockito.Mockito.when;
 
 /**
- * {@link ClusterRpcClientProxy} unit test.
+ * { ClusterRpcClientProxy} unit test.
  *
  * @author chenglu
  * @date 2021-07-08 13:22

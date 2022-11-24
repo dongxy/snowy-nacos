@@ -26,7 +26,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * {@link MetricsMonitor} and {@link NacosMeterRegistry} unit tests.
+ * { MetricsMonitor} and { NacosMeterRegistry} unit tests.
  *
  * @author chenglu
  * @date 2021-06-15 22:58

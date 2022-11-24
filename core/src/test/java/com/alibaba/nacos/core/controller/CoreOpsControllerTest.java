@@ -39,7 +39,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * {@link CoreOpsController} unit test.
+ * { CoreOpsController} unit test.
  *
  * @author chenglu
  * @date 2021-07-07 22:20

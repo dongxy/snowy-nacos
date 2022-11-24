@@ -26,9 +26,9 @@ import java.util.HashSet;
  * Publish this event when the node list changes，All interested in the node list change event can listen to this event.
  *
  * <ul>
- *     <li>{@link com.alibaba.nacos.core.distributed.ProtocolManager}</li>
- *     <li>{@link com.alibaba.nacos.naming.core.DistroMapper}</li>
- *     <li>{@link com.alibaba.nacos.naming.consistency.persistent.raft.RaftPeerSet}</li>
+ *     <li>{com.alibaba.nacos.core.distributed.ProtocolManager}</li>
+ *     <li>{com.alibaba.nacos.naming.core.DistroMapper}</li>
+ *     <li>{com.alibaba.nacos.naming.consistency.persistent.raft.RaftPeerSet}</li>
  * </ul>
  *
  * @author <a href="mailto:liaochuntao@live.com">liaochuntao</a>
@@ -97,7 +97,7 @@ public class MembersChangeEvent extends Event {
         /**
          * build MemberChangeEvent.
          *
-         * @return {@link MembersChangeEvent}
+         * @return {link MembersChangeEvent}
          */
         public MembersChangeEvent build() {
             return new MembersChangeEvent(allMembers, triggers);

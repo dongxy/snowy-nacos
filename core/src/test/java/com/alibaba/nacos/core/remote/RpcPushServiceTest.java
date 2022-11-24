@@ -32,7 +32,7 @@ import org.mockito.junit.MockitoJUnitRunner;
 import java.util.UUID;
 
 /**
- * {@link RpcPushService} unit test.
+ * { RpcPushService} unit test.
  *
  * @author chenglu
  * @date 2021-07-02 19:35

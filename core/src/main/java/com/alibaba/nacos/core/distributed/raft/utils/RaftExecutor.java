@@ -48,9 +48,9 @@ public final class RaftExecutor {
     }
     
     /**
-     * init raft executor by {@link RaftConfig}.
+     * init raft executor by { RaftConfig}.
      *
-     * @param config {@link RaftConfig}
+     * @param config { RaftConfig}
      */
     public static void init(RaftConfig config) {
         

@@ -28,13 +28,13 @@ import com.alibaba.nacos.core.storage.kv.MemoryKvStorage;
 public final class StorageFactory {
     
     /**
-     * Create {@link KvStorage} implementation.
+     * Create { KvStorage} implementation.
      *
-     * @param type    type of {@link KvStorage}
+     * @param type    type of { KvStorage}
      * @param label   label for {@code RocksStorage}
      * @param baseDir base dir of storage file.
-     * @return implementation of {@link KvStorage}
-     * @throws Exception exception during creating {@link KvStorage}
+     * @return implementation of { KvStorage}
+     * @throws Exception exception during creating { KvStorage}
      */
     public static KvStorage createKvStorage(KvStorage.KvType type, final String label, final String baseDir)
             throws Exception {

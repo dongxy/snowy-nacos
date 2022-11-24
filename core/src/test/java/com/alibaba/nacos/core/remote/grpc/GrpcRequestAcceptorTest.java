@@ -66,7 +66,7 @@ import static com.alibaba.nacos.core.remote.grpc.BaseGrpcServer.CONTEXT_KEY_CONN
 import static com.alibaba.nacos.core.remote.grpc.BaseGrpcServer.CONTEXT_KEY_CONN_REMOTE_PORT;
 
 /**
- * {@link GrpcRequestAcceptor} unit test.
+ * { GrpcRequestAcceptor} unit test.
  *
  * @author chenglu
  * @date 2021-07-01 10:49

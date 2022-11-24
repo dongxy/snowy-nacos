@@ -23,7 +23,7 @@ import org.junit.Test;
 import java.util.concurrent.TimeUnit;
 
 /**
- * {@link TpsRecorder} unit test.
+ * { TpsRecorder} unit test.
  *
  * @author chenglu
  * @date 2021-06-21 18:23

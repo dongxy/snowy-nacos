@@ -34,7 +34,7 @@ import org.mockito.Mockito;
 import org.mockito.junit.MockitoJUnitRunner;
 
 /**
- * {@link RemoteRequestAuthFilter} unit test.
+ * { RemoteRequestAuthFilter} unit test.
  *
  * @author chenglu
  * @date 2021-07-06 16:14

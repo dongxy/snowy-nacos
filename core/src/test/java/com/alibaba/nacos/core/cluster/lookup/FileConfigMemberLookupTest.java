@@ -32,7 +32,7 @@ import org.springframework.mock.env.MockEnvironment;
 import java.util.Collections;
 
 /**
- * {@link FileConfigMemberLookup} unit test.
+ * { FileConfigMemberLookup} unit test.
  *
  * @author chenglu
  * @date 2021-07-08 22:23

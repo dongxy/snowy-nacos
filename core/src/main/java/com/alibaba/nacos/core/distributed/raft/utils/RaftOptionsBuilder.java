@@ -51,17 +51,17 @@ import static com.alibaba.nacos.core.distributed.raft.RaftSysConstants.SYNC;
 import static com.alibaba.nacos.core.distributed.raft.RaftSysConstants.SYNC_META;
 
 /**
- * build {@link RaftOptions}.
+ * build { RaftOptions}.
  *
  * @author <a href="mailto:liaochuntao@live.com">liaochuntao</a>
  */
 public class RaftOptionsBuilder {
     
     /**
-     * By {@link RaftConfig} creating a {@link RaftOptions}.
+     * By { RaftConfig} creating a { RaftOptions}.
      *
-     * @param config {@link RaftConfig}
-     * @return {@link RaftOptions}
+     * @param config { RaftConfig}
+     * @return { RaftOptions}
      */
     public static RaftOptions initRaftOptions(RaftConfig config) {
         RaftOptions raftOptions = new RaftOptions();

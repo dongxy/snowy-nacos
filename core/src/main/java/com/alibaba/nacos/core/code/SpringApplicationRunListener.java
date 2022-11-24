@@ -28,7 +28,7 @@ import org.springframework.core.env.ConfigurableEnvironment;
 import java.util.Collection;
 
 /**
- * {@link org.springframework.boot.SpringApplicationRunListener} before {@link EventPublishingRunListener} execution.
+ * { org.springframework.boot.SpringApplicationRunListener} before { EventPublishingRunListener} execution.
  *
  * @author <a href="mailto:mercyblitz@gmail.com">Mercy</a>
  * @since 0.2.2
@@ -97,7 +97,7 @@ public class SpringApplicationRunListener implements org.springframework.boot.Sp
     }
     
     /**
-     * Before {@link EventPublishingRunListener}.
+     * Before { EventPublishingRunListener}.
      *
      * @return HIGHEST_PRECEDENCE
      */

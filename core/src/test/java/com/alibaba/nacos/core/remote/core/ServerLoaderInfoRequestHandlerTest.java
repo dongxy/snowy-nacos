@@ -31,7 +31,7 @@ import org.mockito.Mockito;
 import org.mockito.junit.MockitoJUnitRunner;
 
 /**
- * {@link ServerLoaderInfoRequestHandler} unit test.
+ * { ServerLoaderInfoRequestHandler} unit test.
  *
  * @author chenglu
  * @date 2021-07-01 12:48

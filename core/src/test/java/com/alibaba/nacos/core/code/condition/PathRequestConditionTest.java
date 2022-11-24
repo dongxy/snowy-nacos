@@ -23,7 +23,7 @@ import org.junit.Test;
 import static com.alibaba.nacos.sys.env.Constants.REQUEST_PATH_SEPARATOR;
 
 /**
- * {@link PathRequestCondition} unit test.
+ * { PathRequestCondition} unit test.
  *
  * @author chenglu
  * @date 2021-07-06 16:37

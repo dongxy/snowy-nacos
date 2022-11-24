@@ -30,7 +30,7 @@ public abstract class MemberChangeListener extends Subscriber<MembersChangeEvent
     /**
      * return NodeChangeEvent.class info.
      *
-     * @return {@link MembersChangeEvent#getClass()}
+     * @return { MembersChangeEvent#getClass()}
      */
     @Override
     public Class<? extends Event> subscribeType() {
@@ -40,7 +40,7 @@ public abstract class MemberChangeListener extends Subscriber<MembersChangeEvent
     /**
      * Whether to ignore expired events.
      *
-     * @return default value is {@link Boolean#TRUE}
+     * @return default value is { Boolean#TRUE}
      */
     @Override
     public boolean ignoreExpireEvent() {

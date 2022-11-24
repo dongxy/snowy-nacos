@@ -24,7 +24,7 @@ import java.util.LinkedHashSet;
 import java.util.Set;
 
 /**
- * request param info. {@link org.springframework.web.bind.annotation.RequestMapping#params()}
+ * request param info. { org.springframework.web.bind.annotation.RequestMapping#params()}
  *
  * @author horizonzy
  * @since 1.3.2

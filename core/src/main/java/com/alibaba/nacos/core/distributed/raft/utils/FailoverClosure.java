@@ -29,14 +29,14 @@ public interface FailoverClosure extends Closure {
     /**
      * Set the return interface if needed.
      *
-     * @param response {@link Response} data
+     * @param response { Response} data
      */
     void setResponse(Response response);
     
     /**
      * Catch exception.
      *
-     * @param throwable {@link Throwable}
+     * @param throwable { Throwable}
      */
     void setThrowable(Throwable throwable);
     

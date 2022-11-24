@@ -29,47 +29,47 @@ import org.springframework.core.env.ConfigurableEnvironment;
 public interface NacosApplicationListener {
     
     /**
-     * {@link SpringApplicationRunListener#starting}.
+     * { SpringApplicationRunListener#starting}.
      */
     void starting();
     
     /**
-     * {@link com.alibaba.nacos.core.code.SpringApplicationRunListener#environmentPrepared}.
+     * { com.alibaba.nacos.core.code.SpringApplicationRunListener#environmentPrepared}.
      *
      * @param environment environment
      */
     void environmentPrepared(ConfigurableEnvironment environment);
     
     /**
-     * {@link com.alibaba.nacos.core.code.SpringApplicationRunListener#contextLoaded}.
+     * { com.alibaba.nacos.core.code.SpringApplicationRunListener#contextLoaded}.
      *
      * @param context context
      */
     void contextPrepared(ConfigurableApplicationContext context);
     
     /**
-     * {@link com.alibaba.nacos.core.code.SpringApplicationRunListener#contextLoaded}.
+     * { com.alibaba.nacos.core.code.SpringApplicationRunListener#contextLoaded}.
      *
      * @param context context
      */
     void contextLoaded(ConfigurableApplicationContext context);
     
     /**
-     * {@link com.alibaba.nacos.core.code.SpringApplicationRunListener#started}.
+     * { com.alibaba.nacos.core.code.SpringApplicationRunListener#started}.
      *
      * @param context context
      */
     void started(ConfigurableApplicationContext context);
     
     /**
-     * {@link com.alibaba.nacos.core.code.SpringApplicationRunListener#running}.
+     * { com.alibaba.nacos.core.code.SpringApplicationRunListener#running}.
      *
      * @param context context
      */
     void running(ConfigurableApplicationContext context);
     
     /**
-     * {@link com.alibaba.nacos.core.code.SpringApplicationRunListener#failed}.
+     * { com.alibaba.nacos.core.code.SpringApplicationRunListener#failed}.
      *
      * @param context   context
      * @param exception exception

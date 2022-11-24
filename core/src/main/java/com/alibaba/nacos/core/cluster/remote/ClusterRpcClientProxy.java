@@ -151,7 +151,7 @@ public class ClusterRpcClientProxy extends MemberChangeListener {
     }
     
     /**
-     * Using {@link EnvUtil#getAvailableProcessors(int)} to build cluster clients' grpc thread pool.
+     * Using { EnvUtil#getAvailableProcessors(int)} to build cluster clients' grpc thread pool.
      */
     private RpcClient buildRpcClient(ConnectionType type, Map<String, String> labels, String memberClientKey) {
         return RpcClientFactory.createClusterClient(memberClientKey, type,

@@ -44,8 +44,8 @@ public final class LookupFactory {
     /**
      * Create the target addressing pattern.
      *
-     * @param memberManager {@link ServerMemberManager}
-     * @return {@link MemberLookup}
+     * @param memberManager { ServerMemberManager}
+     * @return { MemberLookup}
      * @throws NacosException NacosException
      */
     public static MemberLookup createLookUp(ServerMemberManager memberManager) throws NacosException {
@@ -66,9 +66,9 @@ public final class LookupFactory {
      * Switch to target addressing mode.
      *
      * @param name          target member-lookup name
-     * @param memberManager {@link ServerMemberManager}
-     * @return {@link MemberLookup}
-     * @throws NacosException {@link NacosException}
+     * @param memberManager { ServerMemberManager}
+     * @return { MemberLookup}
+     * @throws NacosException { NacosException}
      */
     public static MemberLookup switchLookup(String name, ServerMemberManager memberManager) throws NacosException {
         LookupType lookupType = LookupType.sourceOf(name);
@@ -150,10 +150,10 @@ public final class LookupFactory {
         }
         
         /**
-         * find one {@link LookupType} by name, if not found, return null.
+         * find one { LookupType} by name, if not found, return null.
          *
          * @param name name
-         * @return {@link LookupType}
+         * @return { LookupType}
          */
         public static LookupType sourceOf(String name) {
             for (LookupType type : values()) {

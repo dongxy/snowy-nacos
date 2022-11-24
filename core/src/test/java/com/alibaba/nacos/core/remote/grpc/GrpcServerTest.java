@@ -28,7 +28,7 @@ import org.mockito.junit.MockitoJUnitRunner;
 import org.springframework.mock.env.MockEnvironment;
 
 /**
- * {@link GrpcSdkServer} and {@link GrpcClusterServer} unit test.
+ * { GrpcSdkServer} and { GrpcClusterServer} unit test.
  *
  * @author chenglu
  * @date 2021-06-30 14:32

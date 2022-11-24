@@ -24,7 +24,7 @@ import com.alipay.sofa.jraft.rpc.RpcContext;
 import com.alipay.sofa.jraft.rpc.RpcProcessor;
 
 /**
- * deal with {@link Log}.
+ * deal with { Log}.
  *
  * @author <a href="mailto:liaochuntao@live.com">liaochuntao</a>
  */

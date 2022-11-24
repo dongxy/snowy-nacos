@@ -65,17 +65,17 @@ import java.util.concurrent.ConcurrentSkipListMap;
 /**
  * Cluster node management in Nacos.
  *
- * <p>{@link ServerMemberManager#init()} Cluster node manager initialization {@link ServerMemberManager#shutdown()} The
- * cluster node manager is down {@link ServerMemberManager#getSelf()} Gets local node information {@link
- * ServerMemberManager#getServerList()} Gets the cluster node dictionary {@link ServerMemberManager#getMemberAddressInfos()}
- * Gets the address information of the healthy member node {@link ServerMemberManager#allMembers()} Gets a list of
- * member information objects {@link ServerMemberManager#allMembersWithoutSelf()} Gets a list of cluster member nodes
- * with the exception of this node {@link ServerMemberManager#hasMember(String)} Is there a node {@link
+ * <p>{ ServerMemberManager#init()} Cluster node manager initialization { ServerMemberManager#shutdown()} The
+ * cluster node manager is down { ServerMemberManager#getSelf()} Gets local node information {
+ * ServerMemberManager#getServerList()} Gets the cluster node dictionary { ServerMemberManager#getMemberAddressInfos()}
+ * Gets the address information of the healthy member node { ServerMemberManager#allMembers()} Gets a list of
+ * member information objects { ServerMemberManager#allMembersWithoutSelf()} Gets a list of cluster member nodes
+ * with the exception of this node { ServerMemberManager#hasMember(String)} Is there a node {
  * ServerMemberManager#memberChange(Collection)} The final node list changes the method, making the full size more
- * {@link ServerMemberManager#memberJoin(Collection)} Node join, can automatically trigger {@link
+ * { ServerMemberManager#memberJoin(Collection)} Node join, can automatically trigger {
  * ServerMemberManager#memberLeave(Collection)} When the node leaves, only the interface call can be manually triggered
- * {@link ServerMemberManager#update(Member)} Update the target node information {@link
- * ServerMemberManager#isUnHealth(String)} Whether the target node is healthy {@link
+ * { ServerMemberManager#update(Member)} Update the target node information {
+ * ServerMemberManager#isUnHealth(String)} Whether the target node is healthy {
  * ServerMemberManager#initAndStartLookup()} Initializes the addressing mode
  *
  * @author <a href="mailto:liaochuntao@live.com">liaochuntao</a>
@@ -237,7 +237,7 @@ public class ServerMemberManager implements ApplicationListener<WebServerInitial
     /**
      * member information update.
      *
-     * @param newMember {@link Member}
+     * @param newMember { Member}
      * @return update is success
      */
     public boolean update(Member newMember) {
@@ -319,7 +319,7 @@ public class ServerMemberManager implements ApplicationListener<WebServerInitial
     /**
      * return this cluster all members.
      *
-     * @return {@link Collection} all member
+     * @return { Collection} all member
      */
     public Collection<Member> allMembers() {
         // We need to do a copy to avoid affecting the real data
@@ -331,7 +331,7 @@ public class ServerMemberManager implements ApplicationListener<WebServerInitial
     /**
      * return this cluster all members without self.
      *
-     * @return {@link Collection} all member without self
+     * @return { Collection} all member without self
      */
     public List<Member> allMembersWithoutSelf() {
         List<Member> members = new ArrayList<>(serverList.values());
@@ -406,7 +406,7 @@ public class ServerMemberManager implements ApplicationListener<WebServerInitial
     /**
      * members join this cluster.
      *
-     * @param members {@link Collection} new members
+     * @param members { Collection} new members
      * @return is success
      */
     public synchronized boolean memberJoin(Collection<Member> members) {
@@ -418,7 +418,7 @@ public class ServerMemberManager implements ApplicationListener<WebServerInitial
     /**
      * members leave this cluster.
      *
-     * @param members {@link Collection} wait leave members
+     * @param members { Collection} wait leave members
      * @return is success
      */
     public synchronized boolean memberLeave(Collection<Member> members) {
@@ -428,7 +428,7 @@ public class ServerMemberManager implements ApplicationListener<WebServerInitial
     }
     
     /**
-     * this member {@link Member#getState()} is health.
+     * this member { Member#getState()} is health.
      *
      * @param address ip:port
      * @return is health

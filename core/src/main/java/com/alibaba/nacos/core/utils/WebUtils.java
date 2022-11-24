@@ -55,9 +55,9 @@ public class WebUtils {
     private static final String TMP_SUFFIX = ".tmp";
     
     /**
-     * get target value from parameterMap, if not found will throw {@link IllegalArgumentException}.
+     * get target value from parameterMap, if not found will throw { IllegalArgumentException}.
      *
-     * @param req {@link HttpServletRequest}
+     * @param req { HttpServletRequest}
      * @param key key
      * @return value
      */
@@ -73,7 +73,7 @@ public class WebUtils {
     /**
      * get target value from parameterMap, if not found will return default value.
      *
-     * @param req          {@link HttpServletRequest}
+     * @param req          { HttpServletRequest}
      * @param key          key
      * @param defaultValue default value
      * @return value
@@ -135,7 +135,7 @@ public class WebUtils {
     /**
      * get accept encode from request.
      *
-     * @param req {@link HttpServletRequest}
+     * @param req { HttpServletRequest}
      * @return accept encode
      */
     public static String getAcceptEncoding(HttpServletRequest req) {
@@ -163,7 +163,7 @@ public class WebUtils {
     /**
      * response data to client.
      *
-     * @param response {@link HttpServletResponse}
+     * @param response { HttpServletResponse}
      * @param body     body
      * @param code     http code
      * @throws IOException IOException
@@ -180,7 +180,7 @@ public class WebUtils {
      *
      * @param multipartFile file
      * @param consumer      post processor
-     * @param response      {@link DeferredResult}
+     * @param response      { DeferredResult}
      */
     public static void onFileUpload(MultipartFile multipartFile, Consumer<File> consumer,
             DeferredResult<RestResult<String>> response) {
@@ -206,9 +206,9 @@ public class WebUtils {
     /**
      * Register DeferredResult in the callback of CompletableFuture.
      *
-     * @param deferredResult {@link DeferredResult}
-     * @param future         {@link CompletableFuture}
-     * @param errorHandler   {@link Function}
+     * @param deferredResult { DeferredResult}
+     * @param future         { CompletableFuture}
+     * @param errorHandler   { Function}
      * @param <T>            target type
      */
     public static <T> void process(DeferredResult<T> deferredResult, CompletableFuture<T> future,
@@ -228,10 +228,10 @@ public class WebUtils {
     /**
      * Register DeferredResult in the callback of CompletableFuture.
      *
-     * @param deferredResult {@link DeferredResult}
-     * @param future         {@link CompletableFuture}
+     * @param deferredResult { DeferredResult}
+     * @param future         { CompletableFuture}
      * @param success        if future success, callback runnable
-     * @param errorHandler   {@link Function}
+     * @param errorHandler   { Function}
      * @param <T>            target type
      */
     public static <T> void process(DeferredResult<T> deferredResult, CompletableFuture<T> future, Runnable success,

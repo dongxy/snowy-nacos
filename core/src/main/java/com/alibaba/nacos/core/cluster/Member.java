@@ -234,7 +234,7 @@ public class Member implements Comparable<Member>, Cloneable, Serializable {
         /**
          * build Member.
          *
-         * @return {@link Member}
+         * @return { Member}
          */
         public Member build() {
             Member serverNode = new Member();

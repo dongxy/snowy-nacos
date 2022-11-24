@@ -25,7 +25,7 @@ import org.junit.Test;
 import java.util.HashMap;
 
 /**
- * {@link RpcAckCallbackInitorOrCleaner} unit test.
+ * { RpcAckCallbackInitorOrCleaner} unit test.
  *
  * @author chenglu
  * @date 2021-07-01 13:39

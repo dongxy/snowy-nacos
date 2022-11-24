@@ -105,8 +105,8 @@ public class NacosClusterV2Controller {
     /**
      * Other nodes return their own metadata information.
      *
-     * @param nodes List of {@link Member}
-     * @return {@link RestResult}
+     * @param nodes List of { Member}
+     * @return { RestResult}
      */
     @PutMapping(value = "/nodes")
     public RestResult<Void> updateNodes(@RequestBody List<Member> nodes) {
@@ -132,8 +132,8 @@ public class NacosClusterV2Controller {
     /**
      * Addressing mode switch.
      *
-     * @param request {@link LookupUpdateRequest}
-     * @return {@link RestResult}
+     * @param request { LookupUpdateRequest}
+     * @return { RestResult}
      */
     @PutMapping(value = "/lookup")
     public RestResult<Void> updateLookup(@RequestBody LookupUpdateRequest request) {
@@ -149,8 +149,8 @@ public class NacosClusterV2Controller {
      * member leave.
      *
      * @param addresses member ip list, example [ip1:port1,ip2:port2,...]
-     * @return {@link RestResult}
-     * @throws Exception throw {@link Exception}
+     * @return { RestResult}
+     * @throws Exception throw { Exception}
      */
     @DeleteMapping("/nodes")
     public RestResult<Void> deleteNodes(@RequestParam("addresses") List<String> addresses) throws Exception {

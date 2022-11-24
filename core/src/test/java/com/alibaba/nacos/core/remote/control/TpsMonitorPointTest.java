@@ -27,7 +27,7 @@ import java.util.Locale;
 import static org.junit.Assert.assertEquals;
 
 /**
- * {@link TpsMonitorPoint} unit tests.
+ * { TpsMonitorPoint} unit tests.
  *
  * @author chenglu
  * @date 2021-06-18 14:02

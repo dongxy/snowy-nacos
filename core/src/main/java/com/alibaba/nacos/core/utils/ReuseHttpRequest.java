@@ -41,8 +41,8 @@ public interface ReuseHttpRequest extends HttpServletRequest {
     /**
      * Remove duplicate values from the array.
      *
-     * @param request {@link HttpServletRequest}
-     * @return {@link Map}
+     * @param request { HttpServletRequest}
+     * @return { Map}
      */
     default Map<String, String[]> toDuplication(HttpServletRequest request) {
         Map<String, String[]> tmp = request.getParameterMap();

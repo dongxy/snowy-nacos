@@ -20,7 +20,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 /**
- * ${@link MonitorKeyMatcher} unit tests.
+ * ${ MonitorKeyMatcher} unit tests.
  *
  * @author chenglu
  * @date 2021-06-18 13:11

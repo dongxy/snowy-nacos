@@ -23,7 +23,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 /**
- * {@link StorageFactory} unit tests.
+ * { StorageFactory} unit tests.
  *
  * @author chenglu
  * @date 2021-06-10 17:55

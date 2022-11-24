@@ -70,7 +70,7 @@ public class CoreOpsController {
     /**
      * Gets the current health of the ID generator.
      *
-     * @return {@link RestResult}
+     * @return { RestResult}
      */
     @GetMapping(value = "/idInfo")
     public RestResult<Map<String, Map<Object, Object>>> idInfo() {

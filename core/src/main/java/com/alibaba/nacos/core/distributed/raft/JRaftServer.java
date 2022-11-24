@@ -344,7 +344,7 @@ public class JRaftServer {
      *
      * @param groupId raft group
      * @param selfIp  local raft node address
-     * @param conf    {@link Configuration} without self info
+     * @param conf    { Configuration} without self info
      * @return join success
      */
     void registerSelfToCluster(String groupId, PeerId selfIp, Configuration conf) {

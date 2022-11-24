@@ -23,7 +23,7 @@ import org.junit.Test;
 import org.springframework.mock.web.MockHttpServletRequest;
 
 /**
- * {@link ParamRequestCondition} unit test.
+ * { ParamRequestCondition} unit test.
  *
  * @author chenglu
  * @date 2021-07-06 11:56

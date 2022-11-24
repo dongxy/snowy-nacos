@@ -40,7 +40,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * {@link AuthFilter} unit test.
+ * { AuthFilter} unit test.
  *
  * @author chenglu
  * @date 2021-07-06 13:44
