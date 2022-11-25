@@ -148,7 +148,7 @@ public class MemberUtil {
      * Successful processing of the operation on the node and update metadata.
      *
      * @param member { Member}
-     * @since 2.1.2
+     * @since 2.1.2.GA
      */
     public static void onSuccess(final ServerMemberManager manager, final Member member, final Member receivedMember) {
         if (isMetadataChanged(member, receivedMember)) {

@@ -19,8 +19,7 @@
     <parent>
         <artifactId>nacos-all</artifactId>
         <groupId>vip.xiaonuo.nacos</groupId>
-        <version>2.1.2</version>
-        <relativePath>../pom.xml</relativePath>
+        <version>2.1.2.GA</version>
     </parent>
     
     <modelVersion>4.0.0</modelVersion>
